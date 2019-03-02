@@ -24,7 +24,7 @@
   display:block;
   padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
 }
-.hexIn *{
+.hexIn {
   position: absolute;
   width:96%;
   padding-bottom: 110.851%; /* =  width / sin(60) */
@@ -36,7 +36,7 @@
       -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
           transform: rotate3d(0,0,1,-60deg) skewY(30deg);
 }
-.hexIn {
+.hexIn * {
   position: absolute;
   visibility: visible;
   outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
