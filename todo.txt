@@ -1,5 +1,6 @@
-Text font - readability FAQ pg
-hex hover function padding? blocking it? make it zoom
+
+hex hover function padding? blocking it? make it zoom 
+bootstrap 
 ..........................................
 Flash page
 
@@ -12,3 +13,11 @@ reorganise folder, css, js and html folders ( leave index pg out)
 
 ....................................................
 
+
+Flash sheet - photo frame style - slide sheets gimp. 
+
+content update index page. 
+
+Google analytics
+
+Optimisation audit
