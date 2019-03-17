@@ -26,6 +26,6 @@ All content and images are belonging to her but may have been altered slightly i
 
 ## Challenges 
 
-- working with a inexperienced client
 - changing content needs
+- working with my first client
 
