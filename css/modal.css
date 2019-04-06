@@ -37,6 +37,11 @@
   max-width: 1200px;
 }
 
+.myImg {
+  width:100%;
+  max-width:300px
+}
+
 .mySlides img {
 height: 80vh;
 margin: 0 auto;
