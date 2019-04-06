@@ -101,6 +101,12 @@ display: inline-block;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
 
 
 .active,
