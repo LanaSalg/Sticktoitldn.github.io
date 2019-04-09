@@ -1,4 +1,50 @@
 .drawing {
-    width: 100%;
-    height: auto;
+   width: 40%;
 }
+.container {
+    margin: 30px auto;
+}
+
+#mirrorImg {
+    width: 100%;
+}
+
+#lungsImg {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+}
+#faceImg{
+ margin-top: 5%;
+    margin-bottom: -8%;
+}
+#skull1Img {
+    margin-top: -12%;
+}
+#pBottleImg {
+       margin-top: 1%;
+}
+
+#Lana {
+    width: 30%;
+    -webkit-clip-path: inset(5% 5% 20% 0%);
+clip-path: inset(5% 5% 20% 0%);
+ transform: rotate(45deg);
+ margin: 10px;
+ float: right;
+}
+
+
+h4{
+  text-align: justify;
+  text-justify: inter-word;
+    
+}
+
+.bodyPaint {
+width: 100%;
+height: 140%;
+}
+
+#bodyPaint2 { -webkit-clip-path: inset(5% 5% 5% 5%);
+clip-path: inset(3% 5% 5% 5%);}
