@@ -31,6 +31,9 @@ clip-path: inset(5% 5% 20% 0%);
  float: right;
 }
 
+.textToLeft {
+      margin-right: 35%;
+}
 
 h4{
   text-align: justify;
@@ -45,3 +48,8 @@ height: 140%;
 
 #bodyPaint2 { -webkit-clip-path: inset(5% 5% 5% 5%);
 clip-path: inset(3% 5% 5% 5%);}
+
+.margin {
+    margin-top: 20px; 
+     margin-bottom: 20px; 
+}
