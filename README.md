@@ -6,7 +6,7 @@ https://dubhcait.github.io/Sticktoitldn.github.io/
 
 ## Aims
 
-- to experient with design elements, bootstrap and different CSS features. 
+- to experiment with design elements, bootstrap and different CSS features. 
 - to use images that have I have altered with GIMP.
 - to learn new skills
 

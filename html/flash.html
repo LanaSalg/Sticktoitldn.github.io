@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="icon" href="../assets/img/tattoo-studio.ico" sizes="16x16" type="image/svg"> 
+    <title>Pokey in Stokey</title>
+  </head>
+  <body>
+
+  
+    <nav class="navbar-primary collapsed">
+      
+      <ul class="navbar-primary-menu">
+        <li>
+          <a href="about.html"><span class="nav-label">about the artist</span></a>
+          <a href="booking.html"><span class="nav-label">Bookings</span></a>
+          <a href="flash.html"><span class="nav-label">Flash</span></a>
+          <a href="work.html"><span class="nav-label">Previous work</span></a>
+          <a href="faq.html"><span class="nav-label">FAQs</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="#" class="btn-expand-collapse"> <span id="menu" class="shadow-lg mb-5"><h2>MENU</h2></span></a>
+  
+    <a href="../index.html"><div id="logo" class="shadow-lg mb-5">
+      <br>
+        <h1>Pokey</h1> 
+        <h2 id="in">in</h2> 
+        <h1>stokey</h1> 
+      </div>
+    </a>
+
+    <div id="container" class="text-center col-lg-8 col">
+ 
+      <!-- Trigger the Modal -->
+      <img class="myImg" onclick="openModal();currentSlide(1)" src="../assets/img/flash/Fflash_hand.jpg" alt="Flash Sheet 1">
+      <img class="myImg" onclick="openModal();currentSlide(2)" src="../assets/img/flash/block_flash.jpg" alt="Flash Sheet 2">
+      <img class="myImg" onclick="openModal();currentSlide(3)" src="../assets/img/flash/flash_moth.jpg" alt="Flash Sheet 3">
+      
+      <!-- The Modal/Lightbox -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <img src="../assets/img/flash/Fflash_hand.jpg">
+          </div>
+      
+          <div class="mySlides">
+            <img src="../assets/img/flash/block_flash.jpg">
+          </div>
+      
+          <div class="mySlides">
+            <img src="../assets/img/flash/flash_moth.jpg">
+          </div>
+      
+         
+      
+          <!-- Next/previous controls -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        </div>
+       
+      </div>
+      <div class="inkhunterCotainer">
+
+      <h4>Like the look of anything you see? why not try it on...</h4>
+
+      <h5 class="secondFont">Download any of the flash sheets to your phone and get the Inkhunter app </h5>
+      <a href="http://inkhunter.tattoo/" target="_blank"><img src="../assets/img/flash/inkhunter.png" alt="Inkhunter" style="width:80%"> </a>
+      </div>
+    </div>
+       
+    <div class="container1 arrow-up col-sm-12">
+      <a href="booking.html"><img src="../assets/img/triangle.png" alt="bookings" class="image rounded mx-auto d-block" style="width:100%">
+      <div class="middle">
+        <div class="text">Bookings</div>
+      </div>
+      </a>
+    </div>
+      
+    <footer>
+      <a href="about.html"><h6>about the artist</h6></a>
+      <a href="booking.html"><h6>Bookings</h6></a>
+      <a href="work.html"><h6>Previous work</h6></a>
+      <a href="flash.html"><h6>Flash</h6></a>
+      <a href="faq.html"><h6>FAQs</h6></a>
+    </footer>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS then own JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/modal.js"></script>
+  </body>
+</html>
